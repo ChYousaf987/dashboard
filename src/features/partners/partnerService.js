@@ -1,7 +1,7 @@
 // frontend/src/features/partners/partnerService.js
 import axios from "axios";
 
-const base_url = "http://localhost:3001/api/partner";
+const base_url = "https://apis-production-b478.up.railway.app/api/partner";
 
 export const addPartner = async (partnerData, token) => {
   const config = {

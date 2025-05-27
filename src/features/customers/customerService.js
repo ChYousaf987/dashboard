@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const base_url = "http://localhost:3001/api/customer";
+const base_url = "https://apis-production-b478.up.railway.app/api/customer";
 
 export const addCustomer = async (customerData, token) => {
   const config = {

@@ -1,5 +1,5 @@
 import axios from "axios";
-const base_url = "http://localhost:3001/api/company";
+const base_url = "https://apis-production-b478.up.railway.app/api/company";
 
 export const addCompany = async (companyData, token) => {
   const config = {
