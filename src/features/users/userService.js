@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const regUser = async (data) => {
   const response = await axios.post(
-    "https://kuicktagbackend-production.up.railway.app/api/users/register-user",
+    "https://apis-production-b478.up.railway.app/api/users/register-user",
     data
   );
   if (response.data) {
@@ -14,7 +14,7 @@ export const regUser = async (data) => {
 
 export const logUser = async (data) => {
   const response = await axios.post(
-    "https://kuicktagbackend-production.up.railway.app/api/users/login-user",
+    "https://apis-production-b478.up.railway.app/api/users/login-user",
     data
   );
   if (response.data) {
